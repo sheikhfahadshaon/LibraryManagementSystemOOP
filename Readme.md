@@ -43,7 +43,7 @@ README.md
 
 ---
 
-### 1. Compile the Project
+### Compile the Project
 
 Run:
 
@@ -55,26 +55,6 @@ This will:
 
 - Compile all source files from `src/` and `Main.java`
 - Place compiled `.class` files in the `bin/` folder
-
----
-
-### 2. Run the Project
-
-Run:
-
-```bash
-make run
-```
-
----
-
-### 3. Clean Compiled Files
-
-Remove all `.class` files with:
-
-```bash
-make clean
-```
 
 ---
 
@@ -99,7 +79,7 @@ make clean
 - **Student**
     - Max 3 books allowed
 - **Faculty**
-    - Max 5 books allowed
+    - Max 10 books allowed
 
 Borrowing beyond the limit triggers the custom exception `BorrowLimitExceededException`.
 
